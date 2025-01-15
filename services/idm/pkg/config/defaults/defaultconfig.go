@@ -3,8 +3,8 @@ package defaults
 import (
 	"path"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/defaults"
-	"github.com/owncloud/ocis/v2/services/idm/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/defaults"
+	"github.com/owncloud/ocis/v7/services/idm/pkg/config"
 )
 
 // FullDefaultConfig returns a fully initialized default configuration

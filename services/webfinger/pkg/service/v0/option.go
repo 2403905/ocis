@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/config"
 )
 
 // Option defines a single option function.

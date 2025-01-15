@@ -3,10 +3,10 @@ package defaults
 import (
 	"path/filepath"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/defaults"
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
-	"github.com/owncloud/ocis/v2/ocis-pkg/structs"
-	"github.com/owncloud/ocis/v2/services/groups/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/defaults"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/ocis-pkg/structs"
+	"github.com/owncloud/ocis/v7/services/groups/pkg/config"
 )
 
 // FullDefaultConfig returns a fully initialized default configuration

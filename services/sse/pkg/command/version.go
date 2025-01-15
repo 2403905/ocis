@@ -3,11 +3,11 @@ package command
 import (
 	"fmt"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/version"
+	"github.com/owncloud/ocis/v7/ocis-pkg/version"
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/owncloud/ocis/v2/services/sse/pkg/config"
+	"github.com/owncloud/ocis/v7/services/sse/pkg/config"
 )
 
 // Version prints the service versions of all running instances.

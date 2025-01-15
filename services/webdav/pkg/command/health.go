@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/services/webdav/pkg/config"
-	"github.com/owncloud/ocis/v2/services/webdav/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/webdav/pkg/logging"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/services/webdav/pkg/config"
+	"github.com/owncloud/ocis/v7/services/webdav/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/webdav/pkg/logging"
 	"github.com/urfave/cli/v2"
 )
 

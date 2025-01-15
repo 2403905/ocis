@@ -8,9 +8,9 @@ import (
 	"github.com/cs3org/reva/v2/pkg/rgrpc/todo/pool"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/ocis-pkg/x/io/fsx"
-	"github.com/owncloud/ocis/v2/services/web/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/ocis-pkg/x/io/fsx"
+	"github.com/owncloud/ocis/v7/services/web/pkg/config"
 )
 
 // Option defines a single option function.

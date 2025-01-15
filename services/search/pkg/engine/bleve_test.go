@@ -11,11 +11,11 @@ import (
 	. "github.com/onsi/gomega"
 
 	libregraph "github.com/owncloud/libre-graph-api-go"
-	searchmsg "github.com/owncloud/ocis/v2/protogen/gen/ocis/messages/search/v0"
-	searchsvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/search/v0"
-	"github.com/owncloud/ocis/v2/services/search/pkg/content"
-	"github.com/owncloud/ocis/v2/services/search/pkg/engine"
-	"github.com/owncloud/ocis/v2/services/search/pkg/query/bleve"
+	searchmsg "github.com/owncloud/ocis/v7/protogen/gen/ocis/messages/search/v0"
+	searchsvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/search/v0"
+	"github.com/owncloud/ocis/v7/services/search/pkg/content"
+	"github.com/owncloud/ocis/v7/services/search/pkg/engine"
+	"github.com/owncloud/ocis/v7/services/search/pkg/query/bleve"
 )
 
 var _ = Describe("Bleve", func() {

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/oidc"
+	"github.com/owncloud/ocis/v7/ocis-pkg/oidc"
 )
 
 type splitWithEscapingTest struct {

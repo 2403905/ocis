@@ -3,10 +3,10 @@ package debug
 import (
 	"net/http"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/checks"
-	"github.com/owncloud/ocis/v2/ocis-pkg/handlers"
-	"github.com/owncloud/ocis/v2/ocis-pkg/service/debug"
-	"github.com/owncloud/ocis/v2/ocis-pkg/version"
+	"github.com/owncloud/ocis/v7/ocis-pkg/checks"
+	"github.com/owncloud/ocis/v7/ocis-pkg/handlers"
+	"github.com/owncloud/ocis/v7/ocis-pkg/service/debug"
+	"github.com/owncloud/ocis/v7/ocis-pkg/version"
 )
 
 // Server initializes the debug service and server.

@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	libregraph "github.com/owncloud/libre-graph-api-go"
-	"github.com/owncloud/ocis/v2/services/graph/pkg/linktype"
+	"github.com/owncloud/ocis/v7/services/graph/pkg/linktype"
 )
 
 var _ = Describe("LinktypeFromPermission", func() {

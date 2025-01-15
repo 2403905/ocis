@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/cs3org/reva/v2/pkg/store"
-	ehsvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/eventhistory/v0"
+	ehsvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/eventhistory/v0"
 	microstore "go-micro.dev/v4/store"
 	"reflect"
 
@@ -15,17 +15,17 @@ import (
 	"github.com/cs3org/reva/v2/pkg/events/stream"
 	"github.com/cs3org/reva/v2/pkg/rgrpc/todo/pool"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/ocis-pkg/registry"
-	"github.com/owncloud/ocis/v2/ocis-pkg/service/grpc"
-	"github.com/owncloud/ocis/v2/ocis-pkg/tracing"
-	settingssvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/settings/v0"
-	"github.com/owncloud/ocis/v2/services/notifications/pkg/channels"
-	"github.com/owncloud/ocis/v2/services/notifications/pkg/config"
-	"github.com/owncloud/ocis/v2/services/notifications/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/notifications/pkg/logging"
-	"github.com/owncloud/ocis/v2/services/notifications/pkg/server/debug"
-	"github.com/owncloud/ocis/v2/services/notifications/pkg/service"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/ocis-pkg/registry"
+	"github.com/owncloud/ocis/v7/ocis-pkg/service/grpc"
+	"github.com/owncloud/ocis/v7/ocis-pkg/tracing"
+	settingssvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/settings/v0"
+	"github.com/owncloud/ocis/v7/services/notifications/pkg/channels"
+	"github.com/owncloud/ocis/v7/services/notifications/pkg/config"
+	"github.com/owncloud/ocis/v7/services/notifications/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/notifications/pkg/logging"
+	"github.com/owncloud/ocis/v7/services/notifications/pkg/server/debug"
+	"github.com/owncloud/ocis/v7/services/notifications/pkg/service"
 )
 
 // Server is the entrypoint for the server command.

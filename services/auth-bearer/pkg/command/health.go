@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/services/auth-bearer/pkg/config"
-	"github.com/owncloud/ocis/v2/services/auth-bearer/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/auth-bearer/pkg/logging"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/services/auth-bearer/pkg/config"
+	"github.com/owncloud/ocis/v7/services/auth-bearer/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/auth-bearer/pkg/logging"
 	"github.com/urfave/cli/v2"
 )
 

@@ -20,14 +20,14 @@ import (
 	merrors "go-micro.dev/v4/errors"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	thumbnailssvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/thumbnails/v0"
-	terrors "github.com/owncloud/ocis/v2/services/thumbnails/pkg/errors"
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/preprocessor"
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/service/grpc/v0/decorators"
-	tjwt "github.com/owncloud/ocis/v2/services/thumbnails/pkg/service/jwt"
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/thumbnail"
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/thumbnail/imgsource"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	thumbnailssvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/thumbnails/v0"
+	terrors "github.com/owncloud/ocis/v7/services/thumbnails/pkg/errors"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/preprocessor"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/service/grpc/v0/decorators"
+	tjwt "github.com/owncloud/ocis/v7/services/thumbnails/pkg/service/jwt"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/thumbnail"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/thumbnail/imgsource"
 )
 
 // NewService returns a service implementation for Service.

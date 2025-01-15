@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	thumbnailssvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/thumbnails/v0"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	thumbnailssvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/thumbnails/v0"
 	merrors "go-micro.dev/v4/errors"
 )
 

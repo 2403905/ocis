@@ -10,16 +10,16 @@ import (
 	"github.com/oklog/run"
 	"github.com/urfave/cli/v2"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/ocis-pkg/registry"
-	"github.com/owncloud/ocis/v2/ocis-pkg/tracing"
-	"github.com/owncloud/ocis/v2/ocis-pkg/version"
-	"github.com/owncloud/ocis/v2/services/clientlog/pkg/config"
-	"github.com/owncloud/ocis/v2/services/clientlog/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/clientlog/pkg/logging"
-	"github.com/owncloud/ocis/v2/services/clientlog/pkg/metrics"
-	"github.com/owncloud/ocis/v2/services/clientlog/pkg/server/debug"
-	"github.com/owncloud/ocis/v2/services/clientlog/pkg/service"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/ocis-pkg/registry"
+	"github.com/owncloud/ocis/v7/ocis-pkg/tracing"
+	"github.com/owncloud/ocis/v7/ocis-pkg/version"
+	"github.com/owncloud/ocis/v7/services/clientlog/pkg/config"
+	"github.com/owncloud/ocis/v7/services/clientlog/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/clientlog/pkg/logging"
+	"github.com/owncloud/ocis/v7/services/clientlog/pkg/metrics"
+	"github.com/owncloud/ocis/v7/services/clientlog/pkg/server/debug"
+	"github.com/owncloud/ocis/v7/services/clientlog/pkg/service"
 )
 
 // all events we care about

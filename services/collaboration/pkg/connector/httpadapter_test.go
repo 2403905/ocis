@@ -10,9 +10,9 @@ import (
 	typesv1beta1 "github.com/cs3org/go-cs3apis/cs3/types/v1beta1"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/owncloud/ocis/v2/services/collaboration/mocks"
-	"github.com/owncloud/ocis/v2/services/collaboration/pkg/connector"
-	"github.com/owncloud/ocis/v2/services/collaboration/pkg/connector/fileinfo"
+	"github.com/owncloud/ocis/v7/services/collaboration/mocks"
+	"github.com/owncloud/ocis/v7/services/collaboration/pkg/connector"
+	"github.com/owncloud/ocis/v7/services/collaboration/pkg/connector/fileinfo"
 	"github.com/stretchr/testify/mock"
 )
 

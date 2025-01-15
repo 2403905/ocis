@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net/url"
 
-	ociscfg "github.com/owncloud/ocis/v2/ocis-pkg/config"
-	ocisdefaults "github.com/owncloud/ocis/v2/ocis-pkg/config/defaults"
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/envdecode"
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
-	"github.com/owncloud/ocis/v2/services/collaboration/pkg/config"
-	"github.com/owncloud/ocis/v2/services/collaboration/pkg/config/defaults"
+	ociscfg "github.com/owncloud/ocis/v7/ocis-pkg/config"
+	ocisdefaults "github.com/owncloud/ocis/v7/ocis-pkg/config/defaults"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/envdecode"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/services/collaboration/pkg/config"
+	"github.com/owncloud/ocis/v7/services/collaboration/pkg/config/defaults"
 )
 
 // ParseConfig loads configuration from known paths.

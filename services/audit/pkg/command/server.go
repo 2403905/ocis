@@ -9,13 +9,13 @@ import (
 	"github.com/oklog/run"
 	"github.com/urfave/cli/v2"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/services/audit/pkg/config"
-	"github.com/owncloud/ocis/v2/services/audit/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/audit/pkg/logging"
-	"github.com/owncloud/ocis/v2/services/audit/pkg/server/debug"
-	svc "github.com/owncloud/ocis/v2/services/audit/pkg/service"
-	"github.com/owncloud/ocis/v2/services/audit/pkg/types"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/services/audit/pkg/config"
+	"github.com/owncloud/ocis/v7/services/audit/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/audit/pkg/logging"
+	"github.com/owncloud/ocis/v7/services/audit/pkg/server/debug"
+	svc "github.com/owncloud/ocis/v7/services/audit/pkg/service"
+	"github.com/owncloud/ocis/v7/services/audit/pkg/types"
 )
 
 // Server is the entrypoint for the server command.

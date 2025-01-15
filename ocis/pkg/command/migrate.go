@@ -30,14 +30,14 @@ import (
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config"
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/parser"
-	oclog "github.com/owncloud/ocis/v2/ocis-pkg/log"
-	mregistry "github.com/owncloud/ocis/v2/ocis-pkg/registry"
-	"github.com/owncloud/ocis/v2/ocis/pkg/register"
-	sharing "github.com/owncloud/ocis/v2/services/sharing/pkg/config"
-	sharingparser "github.com/owncloud/ocis/v2/services/sharing/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/parser"
+	oclog "github.com/owncloud/ocis/v7/ocis-pkg/log"
+	mregistry "github.com/owncloud/ocis/v7/ocis-pkg/registry"
+	"github.com/owncloud/ocis/v7/ocis/pkg/register"
+	sharing "github.com/owncloud/ocis/v7/services/sharing/pkg/config"
+	sharingparser "github.com/owncloud/ocis/v7/services/sharing/pkg/config/parser"
 	"github.com/urfave/cli/v2"
 )
 

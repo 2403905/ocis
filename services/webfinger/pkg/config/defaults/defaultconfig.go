@@ -3,8 +3,8 @@ package defaults
 import (
 	"strings"
 
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/config"
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/relations"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/config"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/relations"
 )
 
 // FullDefaultConfig returns a fully initialized default configuration

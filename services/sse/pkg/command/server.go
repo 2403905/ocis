@@ -9,13 +9,13 @@ import (
 	"github.com/oklog/run"
 	"github.com/urfave/cli/v2"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/ocis-pkg/tracing"
-	"github.com/owncloud/ocis/v2/services/sse/pkg/config"
-	"github.com/owncloud/ocis/v2/services/sse/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/sse/pkg/server/debug"
-	"github.com/owncloud/ocis/v2/services/sse/pkg/server/http"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/ocis-pkg/tracing"
+	"github.com/owncloud/ocis/v7/services/sse/pkg/config"
+	"github.com/owncloud/ocis/v7/services/sse/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/sse/pkg/server/debug"
+	"github.com/owncloud/ocis/v7/services/sse/pkg/server/http"
 )
 
 // all events we care about

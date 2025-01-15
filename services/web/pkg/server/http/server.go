@@ -8,15 +8,15 @@ import (
 	chimiddleware "github.com/go-chi/chi/v5/middleware"
 	"go-micro.dev/v4"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/cors"
-	"github.com/owncloud/ocis/v2/ocis-pkg/middleware"
-	"github.com/owncloud/ocis/v2/ocis-pkg/registry"
-	"github.com/owncloud/ocis/v2/ocis-pkg/service/http"
-	"github.com/owncloud/ocis/v2/ocis-pkg/version"
-	"github.com/owncloud/ocis/v2/ocis-pkg/x/io/fsx"
-	"github.com/owncloud/ocis/v2/services/web"
-	"github.com/owncloud/ocis/v2/services/web/pkg/apps"
-	svc "github.com/owncloud/ocis/v2/services/web/pkg/service/v0"
+	"github.com/owncloud/ocis/v7/ocis-pkg/cors"
+	"github.com/owncloud/ocis/v7/ocis-pkg/middleware"
+	"github.com/owncloud/ocis/v7/ocis-pkg/registry"
+	"github.com/owncloud/ocis/v7/ocis-pkg/service/http"
+	"github.com/owncloud/ocis/v7/ocis-pkg/version"
+	"github.com/owncloud/ocis/v7/ocis-pkg/x/io/fsx"
+	"github.com/owncloud/ocis/v7/services/web"
+	"github.com/owncloud/ocis/v7/services/web/pkg/apps"
+	svc "github.com/owncloud/ocis/v7/services/web/pkg/service/v0"
 )
 
 var (

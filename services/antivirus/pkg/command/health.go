@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/services/antivirus/pkg/config"
-	"github.com/owncloud/ocis/v2/services/antivirus/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/services/antivirus/pkg/config"
+	"github.com/owncloud/ocis/v7/services/antivirus/pkg/config/parser"
 	"github.com/urfave/cli/v2"
 )
 

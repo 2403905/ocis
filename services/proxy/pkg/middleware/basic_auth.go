@@ -3,9 +3,9 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/ocis-pkg/oidc"
-	"github.com/owncloud/ocis/v2/services/proxy/pkg/user/backend"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/ocis-pkg/oidc"
+	"github.com/owncloud/ocis/v7/services/proxy/pkg/user/backend"
 )
 
 // BasicAuthenticator is the authenticator responsible for HTTP Basic authentication.

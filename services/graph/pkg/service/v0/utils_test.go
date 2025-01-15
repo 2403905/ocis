@@ -17,11 +17,11 @@ import (
 	"github.com/cs3org/reva/v2/pkg/storagespace"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/conversions"
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/services/graph/pkg/identity"
-	service "github.com/owncloud/ocis/v2/services/graph/pkg/service/v0"
-	"github.com/owncloud/ocis/v2/services/graph/pkg/unifiedrole"
+	"github.com/owncloud/ocis/v7/ocis-pkg/conversions"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/services/graph/pkg/identity"
+	service "github.com/owncloud/ocis/v7/services/graph/pkg/service/v0"
+	"github.com/owncloud/ocis/v7/services/graph/pkg/unifiedrole"
 )
 
 var _ = Describe("Utils", func() {

@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/cs3org/reva/v2/pkg/store"
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	settingsmsg "github.com/owncloud/ocis/v2/protogen/gen/ocis/messages/settings/v0"
-	settingssvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/settings/v0"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	settingsmsg "github.com/owncloud/ocis/v7/protogen/gen/ocis/messages/settings/v0"
+	settingssvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/settings/v0"
 	microstore "go-micro.dev/v4/store"
 	"google.golang.org/protobuf/encoding/protojson"
 )

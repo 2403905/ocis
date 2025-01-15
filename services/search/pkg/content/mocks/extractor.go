@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	content "github.com/owncloud/ocis/v2/services/search/pkg/content"
+	content "github.com/owncloud/ocis/v7/services/search/pkg/content"
 
 	mock "github.com/stretchr/testify/mock"
 

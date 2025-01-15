@@ -9,12 +9,12 @@ import (
 	"github.com/urfave/cli/v2"
 	"go-micro.dev/v4/client"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/ocis-pkg/service/grpc"
-	"github.com/owncloud/ocis/v2/ocis-pkg/tracing"
-	searchsvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/search/v0"
-	"github.com/owncloud/ocis/v2/services/search/pkg/config"
-	"github.com/owncloud/ocis/v2/services/search/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/ocis-pkg/service/grpc"
+	"github.com/owncloud/ocis/v7/ocis-pkg/tracing"
+	searchsvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/search/v0"
+	"github.com/owncloud/ocis/v7/services/search/pkg/config"
+	"github.com/owncloud/ocis/v7/services/search/pkg/config/parser"
 )
 
 // Index is the entrypoint for the server command.

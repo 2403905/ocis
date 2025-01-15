@@ -7,8 +7,8 @@ import (
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/x/io/fsx"
-	"github.com/owncloud/ocis/v2/services/web/pkg/theme"
+	"github.com/owncloud/ocis/v7/ocis-pkg/x/io/fsx"
+	"github.com/owncloud/ocis/v7/services/web/pkg/theme"
 )
 
 func TestMergeKV(t *testing.T) {

@@ -12,8 +12,8 @@ import (
 	"github.com/test-go/testify/require"
 	"github.com/tidwall/gjson"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/handlers"
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/ocis-pkg/handlers"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
 )
 
 func TestCheckHandlerConfiguration(t *testing.T) {

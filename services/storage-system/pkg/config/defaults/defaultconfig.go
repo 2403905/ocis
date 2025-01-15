@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/defaults"
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
-	"github.com/owncloud/ocis/v2/ocis-pkg/structs"
-	"github.com/owncloud/ocis/v2/services/storage-system/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/defaults"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/ocis-pkg/structs"
+	"github.com/owncloud/ocis/v7/services/storage-system/pkg/config"
 )
 
 // FullDefaultConfig returns a fully initialized default configuration

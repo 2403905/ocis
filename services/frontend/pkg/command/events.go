@@ -18,14 +18,14 @@ import (
 	"go-micro.dev/v4/metadata"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/ocis-pkg/middleware"
-	"github.com/owncloud/ocis/v2/ocis-pkg/registry"
-	"github.com/owncloud/ocis/v2/ocis-pkg/service/grpc"
-	"github.com/owncloud/ocis/v2/ocis-pkg/tracing"
-	settingssvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/settings/v0"
-	"github.com/owncloud/ocis/v2/services/frontend/pkg/config"
-	"github.com/owncloud/ocis/v2/services/settings/pkg/store/defaults"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/ocis-pkg/middleware"
+	"github.com/owncloud/ocis/v7/ocis-pkg/registry"
+	"github.com/owncloud/ocis/v7/ocis-pkg/service/grpc"
+	"github.com/owncloud/ocis/v7/ocis-pkg/tracing"
+	settingssvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/settings/v0"
+	"github.com/owncloud/ocis/v7/services/frontend/pkg/config"
+	"github.com/owncloud/ocis/v7/services/settings/pkg/store/defaults"
 )
 
 var _registeredEvents = []events.Unmarshaller{

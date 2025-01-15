@@ -3,7 +3,7 @@ package svc
 import (
 	"net/http"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
 )
 
 // NewLogging returns a service that logs messages.

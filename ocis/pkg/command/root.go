@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/clihelper"
-	"github.com/owncloud/ocis/v2/ocis-pkg/config"
-	"github.com/owncloud/ocis/v2/ocis/pkg/register"
+	"github.com/owncloud/ocis/v7/ocis-pkg/clihelper"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config"
+	"github.com/owncloud/ocis/v7/ocis/pkg/register"
 	"github.com/urfave/cli/v2"
 )
 

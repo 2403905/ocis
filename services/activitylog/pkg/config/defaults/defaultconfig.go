@@ -1,9 +1,9 @@
 package defaults
 
 import (
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
-	"github.com/owncloud/ocis/v2/ocis-pkg/structs"
-	"github.com/owncloud/ocis/v2/services/activitylog/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/ocis-pkg/structs"
+	"github.com/owncloud/ocis/v7/services/activitylog/pkg/config"
 )
 
 // FullDefaultConfig returns the full default config

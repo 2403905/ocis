@@ -25,12 +25,12 @@ import (
 	"github.com/go-chi/render"
 	"github.com/google/uuid"
 	libregraph "github.com/owncloud/libre-graph-api-go"
-	settingsmsg "github.com/owncloud/ocis/v2/protogen/gen/ocis/messages/settings/v0"
-	settingssvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/settings/v0"
-	"github.com/owncloud/ocis/v2/services/graph/pkg/errorcode"
-	"github.com/owncloud/ocis/v2/services/graph/pkg/identity"
-	ocissettingssvc "github.com/owncloud/ocis/v2/services/settings/pkg/service/v0"
-	"github.com/owncloud/ocis/v2/services/settings/pkg/store/defaults"
+	settingsmsg "github.com/owncloud/ocis/v7/protogen/gen/ocis/messages/settings/v0"
+	settingssvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/settings/v0"
+	"github.com/owncloud/ocis/v7/services/graph/pkg/errorcode"
+	"github.com/owncloud/ocis/v7/services/graph/pkg/identity"
+	ocissettingssvc "github.com/owncloud/ocis/v7/services/settings/pkg/service/v0"
+	"github.com/owncloud/ocis/v7/services/settings/pkg/store/defaults"
 )
 
 // GetMe implements the Service interface.

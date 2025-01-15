@@ -3,13 +3,13 @@ package parser
 import (
 	"errors"
 
-	ociscfg "github.com/owncloud/ocis/v2/ocis-pkg/config"
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
-	"github.com/owncloud/ocis/v2/ocis-pkg/structs"
-	"github.com/owncloud/ocis/v2/services/ocm/pkg/config"
-	"github.com/owncloud/ocis/v2/services/ocm/pkg/config/defaults"
+	ociscfg "github.com/owncloud/ocis/v7/ocis-pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/ocis-pkg/structs"
+	"github.com/owncloud/ocis/v7/services/ocm/pkg/config"
+	"github.com/owncloud/ocis/v7/services/ocm/pkg/config/defaults"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/envdecode"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/envdecode"
 )
 
 // ParseConfig loads configuration from known paths.

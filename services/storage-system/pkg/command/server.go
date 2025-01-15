@@ -11,15 +11,15 @@ import (
 	"github.com/oklog/run"
 	"github.com/urfave/cli/v2"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/ocis-pkg/registry"
-	"github.com/owncloud/ocis/v2/ocis-pkg/tracing"
-	"github.com/owncloud/ocis/v2/ocis-pkg/version"
-	"github.com/owncloud/ocis/v2/services/storage-system/pkg/config"
-	"github.com/owncloud/ocis/v2/services/storage-system/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/storage-system/pkg/logging"
-	"github.com/owncloud/ocis/v2/services/storage-system/pkg/revaconfig"
-	"github.com/owncloud/ocis/v2/services/storage-system/pkg/server/debug"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/ocis-pkg/registry"
+	"github.com/owncloud/ocis/v7/ocis-pkg/tracing"
+	"github.com/owncloud/ocis/v7/ocis-pkg/version"
+	"github.com/owncloud/ocis/v7/services/storage-system/pkg/config"
+	"github.com/owncloud/ocis/v7/services/storage-system/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/storage-system/pkg/logging"
+	"github.com/owncloud/ocis/v7/services/storage-system/pkg/revaconfig"
+	"github.com/owncloud/ocis/v7/services/storage-system/pkg/server/debug"
 )
 
 // Server is the entry point for the server command.

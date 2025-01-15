@@ -4,12 +4,12 @@ import (
 	"fmt"
 
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/owncloud/ocis/v2/ocis-pkg/cors"
-	ocismiddleware "github.com/owncloud/ocis/v2/ocis-pkg/middleware"
-	"github.com/owncloud/ocis/v2/ocis-pkg/service/http"
-	"github.com/owncloud/ocis/v2/ocis-pkg/version"
-	svc "github.com/owncloud/ocis/v2/services/thumbnails/pkg/service/http/v0"
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/thumbnail/storage"
+	"github.com/owncloud/ocis/v7/ocis-pkg/cors"
+	ocismiddleware "github.com/owncloud/ocis/v7/ocis-pkg/middleware"
+	"github.com/owncloud/ocis/v7/ocis-pkg/service/http"
+	"github.com/owncloud/ocis/v7/ocis-pkg/version"
+	svc "github.com/owncloud/ocis/v7/services/thumbnails/pkg/service/http/v0"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/thumbnail/storage"
 	"go-micro.dev/v4"
 )
 

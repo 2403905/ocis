@@ -6,7 +6,7 @@ import (
 
 	tAssert "github.com/stretchr/testify/assert"
 
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/thumbnail/storage"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/thumbnail/storage"
 )
 
 func TestFileSystem_BuildKey(t *testing.T) {

@@ -26,7 +26,7 @@ func RenderTemplates() {
 		log.Fatal(err)
 	}
 	replacer := strings.NewReplacer(
-		"../../", "github.com/owncloud/ocis/v2/",
+		"../../", "github.com/owncloud/ocis/v7/",
 		"/defaultconfig.go", "",
 	)
 	for i := range paths {

@@ -18,10 +18,10 @@ import (
 	"github.com/go-chi/chi/v5"
 	microstore "go-micro.dev/v4/store"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	ehsvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/eventhistory/v0"
-	settingssvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/settings/v0"
-	"github.com/owncloud/ocis/v2/services/activitylog/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	ehsvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/eventhistory/v0"
+	settingssvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/settings/v0"
+	"github.com/owncloud/ocis/v7/services/activitylog/pkg/config"
 )
 
 // Nats runs into max payload exceeded errors at around 7k activities. Let's keep a buffer.

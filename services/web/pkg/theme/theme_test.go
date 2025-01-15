@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/owncloud/ocis/v2/services/web/pkg/theme"
+	"github.com/owncloud/ocis/v7/services/web/pkg/theme"
 )
 
 // TestAllowedLogoFileTypes is here to ensure that a certain set of bare minimum file types are allowed for logos.

@@ -1,6 +1,6 @@
 package config
 
-import "github.com/owncloud/ocis/v2/ocis-pkg/tracing"
+import "github.com/owncloud/ocis/v7/ocis-pkg/tracing"
 
 // Tracing defines configuration options for tracing.
 type Tracing struct {

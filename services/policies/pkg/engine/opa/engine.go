@@ -9,9 +9,9 @@ import (
 	"github.com/open-policy-agent/opa/rego"
 	"github.com/open-policy-agent/opa/topdown/print"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/services/policies/pkg/config"
-	"github.com/owncloud/ocis/v2/services/policies/pkg/engine"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/services/policies/pkg/config"
+	"github.com/owncloud/ocis/v7/services/policies/pkg/engine"
 )
 
 // OPA wraps open policy agent makes it possible to ask if an action is granted.

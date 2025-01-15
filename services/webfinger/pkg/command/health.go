@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/config"
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/logging"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/config"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/logging"
 	"github.com/urfave/cli/v2"
 )
 

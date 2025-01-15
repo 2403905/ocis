@@ -3,9 +3,9 @@ package defaults
 import (
 	"strings"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
-	"github.com/owncloud/ocis/v2/ocis-pkg/structs"
-	"github.com/owncloud/ocis/v2/services/webdav/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/ocis-pkg/structs"
+	"github.com/owncloud/ocis/v7/services/webdav/pkg/config"
 )
 
 // FullDefaultConfig returns a fully initialized default configuration

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/handlers"
+	"github.com/owncloud/ocis/v7/ocis-pkg/handlers"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

@@ -3,7 +3,7 @@ package service_test
 import (
 	"context"
 	"encoding/json"
-	settingsmsg "github.com/owncloud/ocis/v2/protogen/gen/ocis/messages/settings/v0"
+	settingsmsg "github.com/owncloud/ocis/v7/protogen/gen/ocis/messages/settings/v0"
 	"reflect"
 	"time"
 
@@ -27,13 +27,13 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"google.golang.org/grpc"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	ehmsg "github.com/owncloud/ocis/v2/protogen/gen/ocis/messages/eventhistory/v0"
-	ehsvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/eventhistory/v0"
-	"github.com/owncloud/ocis/v2/protogen/gen/ocis/services/eventhistory/v0/mocks"
-	settingssvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/settings/v0"
-	"github.com/owncloud/ocis/v2/services/userlog/pkg/config"
-	"github.com/owncloud/ocis/v2/services/userlog/pkg/service"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	ehmsg "github.com/owncloud/ocis/v7/protogen/gen/ocis/messages/eventhistory/v0"
+	ehsvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/eventhistory/v0"
+	"github.com/owncloud/ocis/v7/protogen/gen/ocis/services/eventhistory/v0/mocks"
+	settingssvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/settings/v0"
+	"github.com/owncloud/ocis/v7/services/userlog/pkg/config"
+	"github.com/owncloud/ocis/v7/services/userlog/pkg/service"
 )
 
 var _ = Describe("UserlogService", func() {

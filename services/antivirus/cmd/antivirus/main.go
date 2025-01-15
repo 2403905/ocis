@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/owncloud/ocis/v2/services/antivirus/pkg/command"
-	"github.com/owncloud/ocis/v2/services/antivirus/pkg/config/defaults"
+	"github.com/owncloud/ocis/v7/services/antivirus/pkg/command"
+	"github.com/owncloud/ocis/v7/services/antivirus/pkg/config/defaults"
 )
 
 func main() {

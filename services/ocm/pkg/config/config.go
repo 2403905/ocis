@@ -6,7 +6,7 @@ import (
 
 	"go-micro.dev/v4/client"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
 )
 
 // Config combines all available configuration parts.

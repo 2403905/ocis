@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/gjson"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/x/io/fsx"
-	"github.com/owncloud/ocis/v2/services/graph/mocks"
-	"github.com/owncloud/ocis/v2/services/graph/pkg/unifiedrole"
-	"github.com/owncloud/ocis/v2/services/web/pkg/theme"
+	"github.com/owncloud/ocis/v7/ocis-pkg/x/io/fsx"
+	"github.com/owncloud/ocis/v7/services/graph/mocks"
+	"github.com/owncloud/ocis/v7/services/graph/pkg/unifiedrole"
+	"github.com/owncloud/ocis/v7/services/web/pkg/theme"
 )
 
 func TestNewService(t *testing.T) {

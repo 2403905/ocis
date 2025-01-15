@@ -3,9 +3,9 @@ package http
 import (
 	"context"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/services/webdav/pkg/config"
-	"github.com/owncloud/ocis/v2/services/webdav/pkg/metrics"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/services/webdav/pkg/config"
+	"github.com/owncloud/ocis/v7/services/webdav/pkg/metrics"
 	"github.com/urfave/cli/v2"
 	"go.opentelemetry.io/otel/trace"
 )

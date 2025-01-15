@@ -4,8 +4,8 @@ import (
 	"math"
 	"net/url"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/services/ocm/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/services/ocm/pkg/config"
 )
 
 // OCMConfigFromStruct will adapt an oCIS config struct into a reva mapstructure to start a reva service.

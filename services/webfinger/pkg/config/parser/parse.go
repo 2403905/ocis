@@ -3,11 +3,11 @@ package parser
 import (
 	"errors"
 
-	ociscfg "github.com/owncloud/ocis/v2/ocis-pkg/config"
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/config"
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/config/defaults"
+	ociscfg "github.com/owncloud/ocis/v7/ocis-pkg/config"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/config"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/config/defaults"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/envdecode"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/envdecode"
 )
 
 // ParseConfig loads configuration from known paths.

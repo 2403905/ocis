@@ -9,8 +9,8 @@ import (
 	"github.com/onsi/gomega/types"
 	libregraph "github.com/owncloud/libre-graph-api-go"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/conversions"
-	"github.com/owncloud/ocis/v2/services/graph/pkg/unifiedrole"
+	"github.com/owncloud/ocis/v7/ocis-pkg/conversions"
+	"github.com/owncloud/ocis/v7/services/graph/pkg/unifiedrole"
 )
 
 func TestPermissionsToCS3ResourcePermissions(t *testing.T) {

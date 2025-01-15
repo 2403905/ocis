@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	pkgcrypto "github.com/owncloud/ocis/v2/ocis-pkg/crypto"
-	"github.com/owncloud/ocis/v2/ocis-pkg/service/http"
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
-	"github.com/owncloud/ocis/v2/ocis-pkg/version"
+	pkgcrypto "github.com/owncloud/ocis/v7/ocis-pkg/crypto"
+	"github.com/owncloud/ocis/v7/ocis-pkg/service/http"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/ocis-pkg/version"
 	"go-micro.dev/v4"
 )
 

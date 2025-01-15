@@ -3,9 +3,9 @@ package http
 import (
 	"context"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/services/invitations/pkg/config"
-	svc "github.com/owncloud/ocis/v2/services/invitations/pkg/service/v0"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/services/invitations/pkg/config"
+	svc "github.com/owncloud/ocis/v7/services/invitations/pkg/service/v0"
 	"github.com/urfave/cli/v2"
 )
 

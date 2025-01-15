@@ -8,9 +8,9 @@ import (
 
 	gatewayv1beta1 "github.com/cs3org/go-cs3apis/cs3/gateway/v1beta1"
 	"github.com/cs3org/reva/v2/pkg/rgrpc/todo/pool"
-	"github.com/owncloud/ocis/v2/services/collaboration/pkg/config"
-	"github.com/owncloud/ocis/v2/services/collaboration/pkg/connector/utf7"
-	"github.com/owncloud/ocis/v2/services/collaboration/pkg/locks"
+	"github.com/owncloud/ocis/v7/services/collaboration/pkg/config"
+	"github.com/owncloud/ocis/v7/services/collaboration/pkg/connector/utf7"
+	"github.com/owncloud/ocis/v7/services/collaboration/pkg/locks"
 	"github.com/rs/zerolog"
 	microstore "go-micro.dev/v4/store"
 )

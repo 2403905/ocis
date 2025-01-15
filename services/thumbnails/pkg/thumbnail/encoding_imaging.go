@@ -8,7 +8,7 @@ import (
 	"image/png"
 	"io"
 
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/errors"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/errors"
 )
 
 // PngEncoder encodes to png

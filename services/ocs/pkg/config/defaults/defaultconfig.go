@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/structs"
-	"github.com/owncloud/ocis/v2/services/ocs/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/structs"
+	"github.com/owncloud/ocis/v7/services/ocs/pkg/config"
 )
 
 // FullDefaultConfig returns a fully initialized default configuration

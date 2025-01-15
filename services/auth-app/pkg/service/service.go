@@ -19,10 +19,10 @@ import (
 	"github.com/cs3org/reva/v2/pkg/rgrpc/todo/pool"
 	"github.com/cs3org/reva/v2/pkg/utils"
 	"github.com/go-chi/chi/v5"
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/ocis-pkg/roles"
-	"github.com/owncloud/ocis/v2/services/auth-app/pkg/config"
-	settings "github.com/owncloud/ocis/v2/services/settings/pkg/service/v0"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/ocis-pkg/roles"
+	"github.com/owncloud/ocis/v7/services/auth-app/pkg/config"
+	settings "github.com/owncloud/ocis/v7/services/settings/pkg/service/v0"
 	"google.golang.org/grpc/metadata"
 )
 

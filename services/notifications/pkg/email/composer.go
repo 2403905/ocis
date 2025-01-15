@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/l10n"
+	"github.com/owncloud/ocis/v7/ocis-pkg/l10n"
 )
 
 var (

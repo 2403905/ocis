@@ -7,7 +7,7 @@ import (
 
 	"github.com/onsi/gomega"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/x/io/fsx"
+	"github.com/owncloud/ocis/v7/ocis-pkg/x/io/fsx"
 )
 
 func TestBase(t *testing.T) {

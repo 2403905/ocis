@@ -1,7 +1,7 @@
 package account
 
 import (
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
 )
 
 // Option defines a single option function.

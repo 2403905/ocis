@@ -3,11 +3,11 @@ package command
 import (
 	"os"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/clihelper"
+	"github.com/owncloud/ocis/v7/ocis-pkg/clihelper"
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/owncloud/ocis/v2/services/graph/pkg/config"
+	"github.com/owncloud/ocis/v7/services/graph/pkg/config"
 )
 
 // GetCommands provides all commands for this service

@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	ociscfg "github.com/owncloud/ocis/v2/ocis-pkg/config"
-	defaults2 "github.com/owncloud/ocis/v2/ocis-pkg/config/defaults"
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/envdecode"
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
-	"github.com/owncloud/ocis/v2/services/gateway/pkg/config"
-	"github.com/owncloud/ocis/v2/services/gateway/pkg/config/defaults"
+	ociscfg "github.com/owncloud/ocis/v7/ocis-pkg/config"
+	defaults2 "github.com/owncloud/ocis/v7/ocis-pkg/config/defaults"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/envdecode"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/services/gateway/pkg/config"
+	"github.com/owncloud/ocis/v7/services/gateway/pkg/config/defaults"
 )
 
 // ParseConfig loads configuration from known paths.

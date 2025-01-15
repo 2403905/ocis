@@ -5,9 +5,9 @@ import (
 	"image"
 	"mime"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/errors"
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/thumbnail/storage"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/errors"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/thumbnail/storage"
 )
 
 var (

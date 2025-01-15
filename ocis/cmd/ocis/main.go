@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/owncloud/ocis/v2/ocis/pkg/command"
+	"github.com/owncloud/ocis/v7/ocis/pkg/command"
 )
 
 func main() {

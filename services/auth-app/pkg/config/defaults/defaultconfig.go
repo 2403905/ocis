@@ -3,9 +3,9 @@ package defaults
 import (
 	"strings"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
-	"github.com/owncloud/ocis/v2/ocis-pkg/structs"
-	"github.com/owncloud/ocis/v2/services/auth-app/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/ocis-pkg/structs"
+	"github.com/owncloud/ocis/v7/services/auth-app/pkg/config"
 )
 
 // FullDefaultConfig returns a fully initialized default configuration

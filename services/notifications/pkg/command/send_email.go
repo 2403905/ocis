@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/cs3org/reva/v2/pkg/events"
 	"github.com/cs3org/reva/v2/pkg/events/stream"
-	"github.com/owncloud/ocis/v2/services/notifications/pkg/config"
+	"github.com/owncloud/ocis/v7/services/notifications/pkg/config"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
 )

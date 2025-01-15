@@ -11,12 +11,12 @@ import (
 	"github.com/urfave/cli/v2"
 	microstore "go-micro.dev/v4/store"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/tracing"
-	"github.com/owncloud/ocis/v2/services/postprocessing/pkg/config"
-	"github.com/owncloud/ocis/v2/services/postprocessing/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/postprocessing/pkg/logging"
-	"github.com/owncloud/ocis/v2/services/postprocessing/pkg/server/debug"
-	"github.com/owncloud/ocis/v2/services/postprocessing/pkg/service"
+	"github.com/owncloud/ocis/v7/ocis-pkg/tracing"
+	"github.com/owncloud/ocis/v7/services/postprocessing/pkg/config"
+	"github.com/owncloud/ocis/v7/services/postprocessing/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/postprocessing/pkg/logging"
+	"github.com/owncloud/ocis/v7/services/postprocessing/pkg/server/debug"
+	"github.com/owncloud/ocis/v7/services/postprocessing/pkg/service"
 )
 
 // Server is the entrypoint for the server command.

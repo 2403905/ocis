@@ -3,8 +3,8 @@ package config
 import (
 	"context"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/shared"
-	"github.com/owncloud/ocis/v2/ocis-pkg/tracing"
+	"github.com/owncloud/ocis/v7/ocis-pkg/shared"
+	"github.com/owncloud/ocis/v7/ocis-pkg/tracing"
 )
 
 // Config combines all available configuration parts.

@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/oidc"
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/config"
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/webfinger"
+	"github.com/owncloud/ocis/v7/ocis-pkg/oidc"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/config"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/webfinger"
 )
 
 func TestOwnCloudInstanceErr(t *testing.T) {

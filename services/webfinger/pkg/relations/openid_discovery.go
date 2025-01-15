@@ -3,8 +3,8 @@ package relations
 import (
 	"context"
 
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/service/v0"
-	"github.com/owncloud/ocis/v2/services/webfinger/pkg/webfinger"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/service/v0"
+	"github.com/owncloud/ocis/v7/services/webfinger/pkg/webfinger"
 )
 
 const (

@@ -3,8 +3,8 @@ package svc
 import (
 	"net/http"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/services/idp/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/services/idp/pkg/config"
 	"go.opentelemetry.io/otel/trace"
 )
 

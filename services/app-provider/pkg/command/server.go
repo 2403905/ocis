@@ -11,15 +11,15 @@ import (
 	"github.com/oklog/run"
 	"github.com/urfave/cli/v2"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/ocis-pkg/registry"
-	"github.com/owncloud/ocis/v2/ocis-pkg/tracing"
-	"github.com/owncloud/ocis/v2/ocis-pkg/version"
-	"github.com/owncloud/ocis/v2/services/app-provider/pkg/config"
-	"github.com/owncloud/ocis/v2/services/app-provider/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/app-provider/pkg/logging"
-	"github.com/owncloud/ocis/v2/services/app-provider/pkg/revaconfig"
-	"github.com/owncloud/ocis/v2/services/app-provider/pkg/server/debug"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/ocis-pkg/registry"
+	"github.com/owncloud/ocis/v7/ocis-pkg/tracing"
+	"github.com/owncloud/ocis/v7/ocis-pkg/version"
+	"github.com/owncloud/ocis/v7/services/app-provider/pkg/config"
+	"github.com/owncloud/ocis/v7/services/app-provider/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/app-provider/pkg/logging"
+	"github.com/owncloud/ocis/v7/services/app-provider/pkg/revaconfig"
+	"github.com/owncloud/ocis/v7/services/app-provider/pkg/server/debug"
 )
 
 // Server is the entry point for the server command.

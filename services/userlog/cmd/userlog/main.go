@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/owncloud/ocis/v2/services/userlog/pkg/command"
-	"github.com/owncloud/ocis/v2/services/userlog/pkg/config/defaults"
+	"github.com/owncloud/ocis/v7/services/userlog/pkg/command"
+	"github.com/owncloud/ocis/v7/services/userlog/pkg/config/defaults"
 )
 
 func main() {

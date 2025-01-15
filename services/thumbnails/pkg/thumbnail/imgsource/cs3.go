@@ -15,8 +15,8 @@ import (
 	"github.com/cs3org/reva/v2/pkg/rgrpc/todo/pool"
 	"github.com/cs3org/reva/v2/pkg/rhttp"
 	"github.com/cs3org/reva/v2/pkg/storagespace"
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/config"
-	"github.com/owncloud/ocis/v2/services/thumbnails/pkg/errors"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/config"
+	"github.com/owncloud/ocis/v7/services/thumbnails/pkg/errors"
 	"google.golang.org/grpc/metadata"
 )
 

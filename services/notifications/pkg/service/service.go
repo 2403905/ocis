@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	ehsvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/eventhistory/v0"
+	ehsvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/eventhistory/v0"
 	"go-micro.dev/v4/store"
 	"net/url"
 	"os"
@@ -24,13 +24,13 @@ import (
 
 	"github.com/cs3org/reva/v2/pkg/events"
 	"github.com/cs3org/reva/v2/pkg/rgrpc/todo/pool"
-	"github.com/owncloud/ocis/v2/ocis-pkg/l10n"
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	"github.com/owncloud/ocis/v2/ocis-pkg/middleware"
-	settingssvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/settings/v0"
-	"github.com/owncloud/ocis/v2/services/notifications/pkg/channels"
-	"github.com/owncloud/ocis/v2/services/notifications/pkg/email"
-	"github.com/owncloud/ocis/v2/services/settings/pkg/store/defaults"
+	"github.com/owncloud/ocis/v7/ocis-pkg/l10n"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	"github.com/owncloud/ocis/v7/ocis-pkg/middleware"
+	settingssvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/settings/v0"
+	"github.com/owncloud/ocis/v7/services/notifications/pkg/channels"
+	"github.com/owncloud/ocis/v7/services/notifications/pkg/email"
+	"github.com/owncloud/ocis/v7/services/settings/pkg/store/defaults"
 )
 
 // validate is the package level validator instance

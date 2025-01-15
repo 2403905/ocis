@@ -7,14 +7,14 @@ import (
 	"os"
 
 	"github.com/oklog/run"
-	"github.com/owncloud/ocis/v2/ocis-pkg/config/configlog"
-	"github.com/owncloud/ocis/v2/ocis-pkg/tracing"
-	"github.com/owncloud/ocis/v2/services/web/pkg/config"
-	"github.com/owncloud/ocis/v2/services/web/pkg/config/parser"
-	"github.com/owncloud/ocis/v2/services/web/pkg/logging"
-	"github.com/owncloud/ocis/v2/services/web/pkg/metrics"
-	"github.com/owncloud/ocis/v2/services/web/pkg/server/debug"
-	"github.com/owncloud/ocis/v2/services/web/pkg/server/http"
+	"github.com/owncloud/ocis/v7/ocis-pkg/config/configlog"
+	"github.com/owncloud/ocis/v7/ocis-pkg/tracing"
+	"github.com/owncloud/ocis/v7/services/web/pkg/config"
+	"github.com/owncloud/ocis/v7/services/web/pkg/config/parser"
+	"github.com/owncloud/ocis/v7/services/web/pkg/logging"
+	"github.com/owncloud/ocis/v7/services/web/pkg/metrics"
+	"github.com/owncloud/ocis/v7/services/web/pkg/server/debug"
+	"github.com/owncloud/ocis/v7/services/web/pkg/server/http"
 	"github.com/urfave/cli/v2"
 )
 

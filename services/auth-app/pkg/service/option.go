@@ -6,9 +6,9 @@ import (
 	gateway "github.com/cs3org/go-cs3apis/cs3/gateway/v1beta1"
 	"github.com/cs3org/reva/v2/pkg/rgrpc/todo/pool"
 	"github.com/go-chi/chi/v5"
-	"github.com/owncloud/ocis/v2/ocis-pkg/log"
-	settingssvc "github.com/owncloud/ocis/v2/protogen/gen/ocis/services/settings/v0"
-	"github.com/owncloud/ocis/v2/services/auth-app/pkg/config"
+	"github.com/owncloud/ocis/v7/ocis-pkg/log"
+	settingssvc "github.com/owncloud/ocis/v7/protogen/gen/ocis/services/settings/v0"
+	"github.com/owncloud/ocis/v7/services/auth-app/pkg/config"
 	"go.opentelemetry.io/otel/trace"
 )
 

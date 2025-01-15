@@ -3,9 +3,9 @@ package command
 import (
 	"fmt"
 
-	"github.com/owncloud/ocis/v2/ocis-pkg/version"
+	"github.com/owncloud/ocis/v7/ocis-pkg/version"
 
-	"github.com/owncloud/ocis/v2/services/antivirus/pkg/config"
+	"github.com/owncloud/ocis/v7/services/antivirus/pkg/config"
 	"github.com/urfave/cli/v2"
 )
 
