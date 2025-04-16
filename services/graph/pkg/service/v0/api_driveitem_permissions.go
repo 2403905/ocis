@@ -801,16 +801,14 @@ func (api DriveItemPermissionsApi) ListPermissions(w http.ResponseWriter, r *htt
 
 	loc := r.Header.Get(l10n.HeaderAcceptLanguage)
 	w.Header().Add("Content-Language", loc)
-	if loc != "" && loc != "en" {
-		err := l10n_pkg.TranslateEntity(loc, "en", permissions,
-			l10n.TranslateEach("LibreGraphPermissionsRolesAllowedValues",
-				l10n.TranslateField("Description"),
-				l10n.TranslateField("DisplayName"),
-			),
-		)
-		if err != nil {
-			api.logger.Error().Err(err).Msg("tranlation error")
-		}
+	err = l10n_pkg.TranslateEntity(loc, "en", permissions,
+		l10n.TranslateEach("LibreGraphPermissionsRolesAllowedValues",
+			l10n.TranslateField("Description"),
+			l10n.TranslateField("DisplayName"),
+		),
+	)
+	if err != nil {
+		api.logger.Error().Err(err).Msg("tranlation error")
 	}
 
 	render.Status(r, http.StatusOK)
@@ -836,16 +834,14 @@ func (api DriveItemPermissionsApi) ListSpaceRootPermissions(w http.ResponseWrite
 
 	loc := r.Header.Get(l10n.HeaderAcceptLanguage)
 	w.Header().Add("Content-Language", loc)
-	if loc != "" && loc != "en" {
-		err := l10n_pkg.TranslateEntity(loc, "en", permissions,
-			l10n.TranslateEach("LibreGraphPermissionsRolesAllowedValues",
-				l10n.TranslateField("Description"),
-				l10n.TranslateField("DisplayName"),
-			),
-		)
-		if err != nil {
-			api.logger.Error().Err(err).Msg("tranlation error")
-		}
+	err = l10n_pkg.TranslateEntity(loc, "en", permissions,
+		l10n.TranslateEach("LibreGraphPermissionsRolesAllowedValues",
+			l10n.TranslateField("Description"),
+			l10n.TranslateField("DisplayName"),
+		),
+	)
+	if err != nil {
+		api.logger.Error().Err(err).Msg("tranlation error")
 	}
 
 	render.Status(r, http.StatusOK)
