@@ -222,15 +222,7 @@ func Server(cfg *config.Config) *cli.Command {
 				gr.Add(runner.NewGolangHttpServerRunner(cfg.Service.Name+".debug", debugServer))
 			}
 
-			grResults := gr.Run(cfg.Context)
-
-			// return the first non-nil error found in the results
-			for _, grResult := range grResults {
-				if grResult.RunnerError != nil {
-					return grResult.RunnerError
-				}
-			}
-			return nil
+			return runner.GroupRunnerWithLogging(cfg.Context, gr, cfg.Service.Name, logger)
 		},
 	}
 }
